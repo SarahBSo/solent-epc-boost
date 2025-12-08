@@ -295,8 +295,8 @@ const Landlords = () => {
             </p>
             <div className="mt-8 flex items-center justify-center gap-2">
               <Phone className="h-5 w-5" />
-              <a href="tel:07879783783" className="text-lg font-semibold hover:underline">
-                07879 783783
+              <a href="tel:07803280068" className="text-lg font-semibold hover:underline">
+                07803 280068
               </a>
             </div>
           </div>
