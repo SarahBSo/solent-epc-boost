@@ -532,7 +532,7 @@ const LocationPage = () => {
       <Helmet>
         <title>{location.seo.title}</title>
         <meta name="description" content={location.seo.description} />
-        <link rel="canonical" href={`https://solentepc.co.uk/epc-${slug}`} />
+        <link rel="canonical" href={`https://solentepc.co.uk/epc/${slug}`} />
       </Helmet>
 
       {/* Hero Section */}
