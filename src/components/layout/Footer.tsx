@@ -111,7 +111,7 @@ export function Footer() {
               © 2026 Solent EPC. All rights reserved.
             </p>
             <p className="text-sm text-accent-foreground/70">
-              Accredited Domestic Energy Assessor • Fully Insured
+              Accredited Domestic Energy Assessor • Fully Insured • DBS Checked
             </p>
           </div>
         </div>

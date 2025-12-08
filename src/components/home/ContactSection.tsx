@@ -74,6 +74,9 @@ export function ContactSection() {
                   <span className="text-sm font-medium text-accent">Fully Insured</span>
                 </div>
                 <div className="bg-card rounded-lg px-4 py-3 shadow-sm">
+                  <span className="text-sm font-medium text-accent">DBS Checked</span>
+                </div>
+                <div className="bg-card rounded-lg px-4 py-3 shadow-sm">
                   <span className="text-sm font-medium text-accent">Official EPC Register</span>
                 </div>
               </div>
