@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet-async";
 const pricingTiers = [
   {
     title: "Standard EPC",
-    price: "£85",
+    price: "From £85",
     description: "For home sellers and buyers needing an EPC for their sale or purchase.",
     features: [
       "Full property assessment",
@@ -21,7 +21,7 @@ const pricingTiers = [
   },
   {
     title: "Rental EPC",
-    price: "£85",
+    price: "From £85",
     description: "For landlords ensuring compliance with minimum energy efficiency standards.",
     features: [
       "Compliance-focused assessment",
@@ -34,7 +34,7 @@ const pricingTiers = [
   },
   {
     title: "Agent Packages",
-    price: "From £75",
+    price: "Contact for pricing",
     description: "Discounted rates for estate agents and letting agents with regular bookings.",
     features: [
       "Volume-based discounts",
