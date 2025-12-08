@@ -1,13 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Layout } from "@/components/layout/Layout";
+import { HeroSection } from "@/components/home/HeroSection";
+import { WhoWeHelpSection } from "@/components/home/WhoWeHelpSection";
+import { WhatIsEPCSection } from "@/components/home/WhatIsEPCSection";
+import { WhyChooseUsSection } from "@/components/home/WhyChooseUsSection";
+import { AreasSection } from "@/components/home/AreasSection";
+import { HowItWorksSection } from "@/components/home/HowItWorksSection";
+import { PricingSection } from "@/components/home/PricingSection";
+import { FAQSection } from "@/components/home/FAQSection";
+import { AboutSection } from "@/components/home/AboutSection";
+import { ContactSection } from "@/components/home/ContactSection";
+import { Helmet } from "react-helmet-async";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <Layout>
+      <Helmet>
+        <title>EPC Assessor Lymington | Solent EPC | Hampshire & Dorset</title>
+        <meta name="description" content="Fast, friendly EPC assessments in Lymington, New Forest, Hampshire & Dorset. Accredited Domestic Energy Assessor. Same-day certificates. Book your EPC today." />
+        <link rel="canonical" href="https://solentepc.co.uk/" />
+      </Helmet>
+      <HeroSection />
+      <WhoWeHelpSection />
+      <WhatIsEPCSection />
+      <WhyChooseUsSection />
+      <AreasSection />
+      <HowItWorksSection />
+      <PricingSection />
+      <FAQSection />
+      <AboutSection />
+      <ContactSection />
+    </Layout>
   );
 };
 
