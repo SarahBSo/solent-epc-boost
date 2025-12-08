@@ -95,7 +95,10 @@ const Services = () => {
                 <strong>Selling your home?</strong> You must have a valid EPC before marketing your property. Estate agents cannot list your home without one.
               </p>
               <p>
-                <strong>Renting out a property?</strong> Landlords need a valid EPC to let their property, and it must meet a minimum E rating for new tenancies.
+                <strong>Renting out a property?</strong> Landlords need a valid EPC to let their property, and it must meet a minimum E rating for new tenancies.{" "}
+                <Link to="/landlords" className="text-primary hover:underline font-medium">
+                  Read more about EPC changes for landlords and PRS
+                </Link>
               </p>
               <p>
                 <strong>Building or renovating?</strong> New builds and major renovations require an EPC on completion.
