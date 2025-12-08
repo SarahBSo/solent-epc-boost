@@ -108,7 +108,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-accent-foreground/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-accent-foreground/70">
-              © {new Date().getFullYear()} Solent EPC. All rights reserved.
+              © 2026 Solent EPC. All rights reserved.
             </p>
             <p className="text-sm text-accent-foreground/70">
               Accredited Domestic Energy Assessor • Fully Insured
