@@ -54,7 +54,7 @@ const Landlords = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-              The 2028 EPC Rules Explained <span className="text-primary">(Straightforward Version)</span>
+              The 2028 EPC Rules Explained
             </h2>
             <p className="text-center text-lg text-muted-foreground mb-12">
               Here's what landlords are currently expected to face:
@@ -71,7 +71,7 @@ const Landlords = () => {
                     <h3 className="text-xl font-bold mb-4">A higher minimum EPC rating</h3>
                     <p className="text-muted-foreground mb-4">
                       The rental sector will move beyond the current E rating requirement.
-                      The expected target for 2028 is <strong className="text-foreground">EPC C</strong> for most privately rented homes.
+                      The expected target is <strong className="text-foreground">EPC C for new tenancies from 2028</strong>, with existing tenancies required to follow by 2030.
                     </p>
                     <p className="text-muted-foreground">
                       This means many properties will need insulation upgrades, heating improvements or changes to glazing to remain legally lettable.
