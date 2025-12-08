@@ -70,27 +70,33 @@ const Pricing = () => {
       {/* Pricing Cards */}
       <section className="section-padding bg-background">
         <div className="container-section">
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto items-stretch">
             {pricingTiers.map((tier) => (
               <div
                 key={tier.title}
-                className={`rounded-xl p-6 ${
+                className={`rounded-xl p-6 flex flex-col ${
                   tier.highlighted
                     ? "bg-primary text-primary-foreground ring-4 ring-secondary/50"
                     : "bg-card text-card-foreground shadow-card"
                 }`}
               >
                 {tier.highlighted && (
-                  <span className="inline-block bg-secondary text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full mb-4">
+                  <span className="inline-block bg-secondary text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full mb-4 w-fit">
                     Most Popular
                   </span>
                 )}
                 <h2 className="font-heading font-semibold text-xl mb-2">{tier.title}</h2>
-                <p className="text-4xl font-heading font-bold mb-2">{tier.price}</p>
+                {tier.title === "Agent Packages" ? (
+                  <p className={`text-lg font-medium mb-2 ${tier.highlighted ? "text-primary-foreground" : "text-foreground"}`}>
+                    {tier.price}
+                  </p>
+                ) : (
+                  <p className="text-4xl font-heading font-bold mb-2">{tier.price}</p>
+                )}
                 <p className={`text-sm mb-6 ${tier.highlighted ? "text-primary-foreground/80" : "text-muted-foreground"}`}>
                   {tier.description}
                 </p>
-                <ul className="space-y-3 mb-6">
+                <ul className="space-y-3 mb-6 flex-grow">
                   {tier.features.map((feature) => (
                     <li key={feature} className="flex items-start gap-2 text-sm">
                       <Check className={`w-5 h-5 flex-shrink-0 ${tier.highlighted ? "text-secondary" : "text-secondary"}`} />
@@ -101,10 +107,10 @@ const Pricing = () => {
                 <Button
                   asChild
                   variant={tier.highlighted ? "secondary" : "outline"}
-                  className="w-full"
+                  className="w-full mt-auto"
                   size="lg"
                 >
-                  <Link to="/contact">Book Now</Link>
+                  <Link to="/contact">{tier.title === "Agent Packages" ? "Get in Touch" : "Book Now"}</Link>
                 </Button>
               </div>
             ))}
