@@ -74,7 +74,7 @@ const Areas = () => {
               {newForestTowns.map((town) => (
                 <Link
                   key={town.slug}
-                  to={`/epc-${town.slug}`}
+                  to={`/epc/${town.slug}`}
                   className="group flex items-center gap-2 bg-card rounded-lg px-4 py-3 hover:bg-primary hover:text-primary-foreground transition-all duration-200 shadow-sm hover:shadow-card"
                 >
                   <MapPin className="w-4 h-4 text-primary group-hover:text-primary-foreground transition-colors" />
@@ -93,7 +93,7 @@ const Areas = () => {
               {hampshireTowns.map((town) => (
                 <Link
                   key={town.slug}
-                  to={`/epc-${town.slug}`}
+                  to={`/epc/${town.slug}`}
                   className="group flex items-center gap-2 bg-card rounded-lg px-4 py-3 hover:bg-primary hover:text-primary-foreground transition-all duration-200 shadow-sm hover:shadow-card"
                 >
                   <MapPin className="w-4 h-4 text-primary group-hover:text-primary-foreground transition-colors" />
@@ -112,7 +112,7 @@ const Areas = () => {
               {dorsetTowns.map((town) => (
                 <Link
                   key={town.slug}
-                  to={`/epc-${town.slug}`}
+                  to={`/epc/${town.slug}`}
                   className="group flex items-center gap-2 bg-card rounded-lg px-4 py-3 hover:bg-primary hover:text-primary-foreground transition-all duration-200 shadow-sm hover:shadow-card"
                 >
                   <MapPin className="w-4 h-4 text-primary group-hover:text-primary-foreground transition-colors" />

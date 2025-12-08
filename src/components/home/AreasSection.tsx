@@ -51,7 +51,7 @@ export function AreasSection() {
               {towns.map((town, index) => (
                 <Link
                   key={town.slug}
-                  to={`/epc-${town.slug}`}
+                  to={`/epc/${town.slug}`}
                   className="group flex items-center gap-2 bg-background rounded-lg px-4 py-3 hover:bg-primary hover:text-primary-foreground transition-all duration-200 shadow-sm hover:shadow-card animate-fade-in"
                   style={{ animationDelay: `${index * 0.05}s` }}
                 >
