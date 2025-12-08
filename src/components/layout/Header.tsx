@@ -17,7 +17,7 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-card/95 backdrop-blur-sm border-b border-border">
+    <header className="sticky top-0 z-50 bg-primary border-b border-primary/80">
       <nav className="container-section">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
@@ -31,7 +31,7 @@ export function Header() {
               <Link
                 key={link.href}
                 to={link.href}
-                className="px-4 py-2 text-sm font-medium text-foreground hover:text-primary transition-colors"
+                className="px-4 py-2 text-sm font-bold text-primary-foreground hover:text-primary-foreground/80 transition-colors"
               >
                 {link.label}
               </Link>
@@ -40,41 +40,41 @@ export function Header() {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-3">
-            <a href="tel:07803280068" className="flex items-center gap-2 text-sm font-medium text-accent hover:text-primary transition-colors">
-              <Phone className="w-4 h-4" />
+            <a href="tel:07803280068" className="flex items-center gap-2 text-sm font-bold text-primary-foreground hover:text-primary-foreground/80 transition-colors">
+              <Phone className="w-4 h-4 stroke-[2.5]" />
               <span>07803 280068</span>
             </a>
-            <Button asChild variant="hero" size="lg">
+            <Button asChild size="lg" className="bg-card text-primary font-bold hover:bg-card/90">
               <Link to="/contact">Book Your EPC</Link>
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2 text-accent"
+            className="lg:hidden p-2 text-primary-foreground"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileMenuOpen ? <X className="w-6 h-6 stroke-[2.5]" /> : <Menu className="w-6 h-6 stroke-[2.5]" />}
           </button>
         </div>
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-border animate-fade-in">
+          <div className="lg:hidden py-4 border-t border-primary-foreground/20 animate-fade-in">
             <div className="flex flex-col gap-2">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   to={link.href}
-                  className="px-4 py-3 text-sm font-medium text-foreground hover:text-primary hover:bg-muted rounded-md transition-colors"
+                  className="px-4 py-3 text-sm font-bold text-primary-foreground hover:text-primary-foreground/80 hover:bg-primary-foreground/10 rounded-md transition-colors"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {link.label}
                 </Link>
               ))}
               <div className="pt-4 px-4">
-                <Button asChild variant="hero" size="lg" className="w-full">
+                <Button asChild size="lg" className="w-full bg-card text-primary font-bold hover:bg-card/90">
                   <Link to="/contact">Book Your EPC</Link>
                 </Button>
               </div>
