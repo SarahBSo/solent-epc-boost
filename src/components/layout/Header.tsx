@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone, Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from "@/assets/solent-check-logo.png";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -20,14 +21,8 @@ export function Header() {
       <nav className="container-section">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-lg">S</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-heading font-bold text-accent text-lg leading-tight">Solent EPC</span>
-              <span className="text-[10px] text-muted-foreground leading-tight">Energy Performance Certificates</span>
-            </div>
+          <Link to="/" className="flex items-center">
+            <img src={logo} alt="Solent EPC" className="h-10 md:h-12 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -45,9 +40,9 @@ export function Header() {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-3">
-            <a href="tel:01onal" className="flex items-center gap-2 text-sm font-medium text-accent hover:text-primary transition-colors">
+            <a href="tel:07803280068" className="flex items-center gap-2 text-sm font-medium text-accent hover:text-primary transition-colors">
               <Phone className="w-4 h-4" />
-              <span>Call Now</span>
+              <span>07803 280068</span>
             </a>
             <Button asChild variant="hero" size="lg">
               <Link to="/contact">Book Your EPC</Link>

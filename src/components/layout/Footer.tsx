@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
+import logo from "@/assets/solent-check-logo.png";
 
 const footerLinks = {
   services: [
@@ -29,23 +30,20 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">S</span>
-              </div>
-              <span className="font-heading font-bold text-lg">Solent EPC</span>
+            <Link to="/" className="flex items-center mb-4">
+              <img src={logo} alt="Solent EPC" className="h-10 w-auto" />
             </Link>
             <p className="text-accent-foreground/80 text-sm mb-4">
               Your trusted local EPC assessor covering Hampshire, Dorset and the New Forest. Fast, friendly and fully accredited.
             </p>
             <div className="space-y-2">
-              <a href="tel:01onal" className="flex items-center gap-2 text-sm hover:text-primary transition-colors">
+              <a href="tel:07803280068" className="flex items-center gap-2 text-sm hover:text-primary transition-colors">
                 <Phone className="w-4 h-4" />
-                <span>Call for availability</span>
+                <span>07803 280068</span>
               </a>
-              <a href="mailto:info@solentepc.co.uk" className="flex items-center gap-2 text-sm hover:text-primary transition-colors">
+              <a href="mailto:rick@solentcheck.co.uk" className="flex items-center gap-2 text-sm hover:text-primary transition-colors">
                 <Mail className="w-4 h-4" />
-                <span>info@solentepc.co.uk</span>
+                <span>rick@solentcheck.co.uk</span>
               </a>
               <div className="flex items-center gap-2 text-sm">
                 <MapPin className="w-4 h-4" />

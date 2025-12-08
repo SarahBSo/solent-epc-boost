@@ -32,8 +32,8 @@ export function ContactSection() {
                 <div>
                   <p className="font-medium text-accent">Call Us</p>
                   <p className="text-muted-foreground">For same-day availability</p>
-                  <a href="tel:01onal" className="text-primary font-semibold hover:underline">
-                    Call Now
+                  <a href="tel:07803280068" className="text-primary font-semibold hover:underline">
+                    07803 280068
                   </a>
                 </div>
               </div>
@@ -45,8 +45,8 @@ export function ContactSection() {
                 <div>
                   <p className="font-medium text-accent">Email Us</p>
                   <p className="text-muted-foreground">We'll respond within 24 hours</p>
-                  <a href="mailto:info@solentepc.co.uk" className="text-primary font-semibold hover:underline">
-                    info@solentepc.co.uk
+                  <a href="mailto:rick@solentcheck.co.uk" className="text-primary font-semibold hover:underline">
+                    rick@solentcheck.co.uk
                   </a>
                 </div>
               </div>

@@ -46,7 +46,7 @@ export function HeroSection() {
                 <Link to="/contact">Book Your EPC</Link>
               </Button>
               <Button asChild variant="hero-outline" size="xl">
-                <a href="tel:01onal">Call for Today's Availability</a>
+                <a href="tel:07803280068">Call for Today's Availability</a>
               </Button>
             </div>
           </div>

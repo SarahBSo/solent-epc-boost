@@ -41,7 +41,7 @@ export function AreasSection() {
               New Forest & Surrounding Areas
             </h3>
             <p className="text-muted-foreground text-center text-sm">
-              25-mile coverage radius from SO41 9EZ
+              25-mile coverage radius from Lymington
             </p>
           </div>
 
