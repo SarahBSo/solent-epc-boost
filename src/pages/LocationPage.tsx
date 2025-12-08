@@ -72,7 +72,7 @@ const LocationPage = () => {
                 <a href="#book">Book Your EPC in {town.name}</a>
               </Button>
               <Button asChild variant="hero-outline" size="xl">
-                <a href="tel:01onal">Call for Availability</a>
+                <a href="tel:07803280068">Call for Availability</a>
               </Button>
             </div>
           </div>

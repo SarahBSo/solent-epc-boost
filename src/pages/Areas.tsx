@@ -56,7 +56,7 @@ const Areas = () => {
               25-Mile Coverage Radius
             </h2>
             <p className="text-muted-foreground">
-              From our base near Lymington (SO41 9EZ)
+              From our base near Lymington
             </p>
           </div>
         </div>
