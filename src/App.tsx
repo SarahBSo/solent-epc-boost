@@ -10,6 +10,7 @@ import Pricing from "./pages/Pricing";
 import Areas from "./pages/Areas";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Landlords from "./pages/Landlords";
 import LocationPage from "./pages/LocationPage";
 import NotFound from "./pages/NotFound";
 
@@ -29,6 +30,7 @@ const App = () => (
             <Route path="/areas" element={<Areas />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/landlords" element={<Landlords />} />
             <Route path="/epc-:slug" element={<LocationPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
