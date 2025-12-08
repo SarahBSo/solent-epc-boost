@@ -9,6 +9,7 @@ const navLinks = [
   { href: "/services", label: "EPC Services" },
   { href: "/pricing", label: "Pricing" },
   { href: "/areas", label: "Areas We Cover" },
+  { href: "/landlords", label: "Landlords" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
