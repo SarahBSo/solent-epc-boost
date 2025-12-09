@@ -13,6 +13,7 @@ import Contact from "./pages/Contact";
 import Landlords from "./pages/Landlords";
 import LocationPage from "./pages/LocationPage";
 import CookiePolicy from "./pages/CookiePolicy";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
             <Route path="/landlords" element={<Landlords />} />
             <Route path="/epc/:slug" element={<LocationPage />} />
             <Route path="/cookie-policy" element={<CookiePolicy />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

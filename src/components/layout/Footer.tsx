@@ -110,10 +110,18 @@ export function Footer() {
             <p className="text-sm text-accent-foreground/70">
               © 2026 Solent EPC. All rights reserved.
             </p>
-            <p className="text-sm text-accent-foreground/70">
-              Accredited Domestic Energy Assessor • Fully Insured • DBS Checked
-            </p>
+            <div className="flex items-center gap-4">
+              <Link to="/privacy-policy" className="text-sm text-accent-foreground/70 hover:text-primary transition-colors">
+                Privacy Policy
+              </Link>
+              <Link to="/cookie-policy" className="text-sm text-accent-foreground/70 hover:text-primary transition-colors">
+                Cookie Policy
+              </Link>
+            </div>
           </div>
+          <p className="text-sm text-accent-foreground/70 text-center mt-4">
+            Accredited Domestic Energy Assessor • Fully Insured • DBS Checked
+          </p>
         </div>
       </div>
     </footer>
