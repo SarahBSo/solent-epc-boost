@@ -1,7 +1,18 @@
-import { BookingForm } from "./BookingForm";
 import { Phone, Mail, Clock } from "lucide-react";
+import { useEffect } from "react";
 
 export function ContactSection() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://www.propsys.uk/js/form_embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <section id="book" className="section-padding bg-background">
       <div className="container-section">
@@ -14,8 +25,24 @@ export function ContactSection() {
             <p className="text-muted-foreground mb-8">
               Fill in the form below and we'll get back to you to confirm your appointment.
             </p>
-            <div className="bg-card rounded-xl p-6 sm:p-8 shadow-card">
-              <BookingForm />
+            <div className="bg-card rounded-xl shadow-card overflow-hidden">
+              <iframe
+                src="https://www.propsys.uk/widget/form/c2pJWs3JiNu2v1o1S7b6"
+                style={{ width: "100%", height: "930px", border: "none", borderRadius: "3px" }}
+                id="inline-c2pJWs3JiNu2v1o1S7b6"
+                data-layout='{"id":"INLINE"}'
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="SCEPC 01 Website Contact Us"
+                data-height="930"
+                data-layout-iframe-id="inline-c2pJWs3JiNu2v1o1S7b6"
+                data-form-id="c2pJWs3JiNu2v1o1S7b6"
+                title="SCEPC 01 Website Contact Us"
+              />
             </div>
           </div>
 
