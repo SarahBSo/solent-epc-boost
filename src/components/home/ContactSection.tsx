@@ -106,6 +106,12 @@ export function ContactSection() {
                 <div className="bg-card rounded-lg px-4 py-3 shadow-sm">
                   <span className="text-sm font-medium text-accent">Official EPC Register</span>
                 </div>
+                <div className="bg-card rounded-lg px-4 py-3 shadow-sm">
+                  <span className="text-sm font-medium text-accent">ABBE Level 3 Certificate</span>
+                </div>
+                <div className="bg-card rounded-lg px-4 py-3 shadow-sm">
+                  <span className="text-sm font-medium text-accent">Elmhurst Energy Trained</span>
+                </div>
               </div>
             </div>
           </div>
