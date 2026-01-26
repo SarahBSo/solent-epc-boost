@@ -72,6 +72,14 @@ const About = () => {
               </div>
             ))}
           </div>
+          
+          {/* Accreditation Details */}
+          <div className="mt-8 text-center">
+            <div className="inline-block bg-background rounded-lg px-6 py-4 shadow-sm">
+              <p className="text-sm text-muted-foreground mb-1">Accreditation Scheme: <span className="font-medium text-accent">Elmhurst Energy Systems Ltd</span></p>
+              <p className="text-sm text-muted-foreground">Assessor's ID: <span className="font-medium text-accent">EES/035599</span></p>
+            </div>
+          </div>
         </div>
       </section>
 
