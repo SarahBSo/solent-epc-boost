@@ -8,8 +8,8 @@ const Landlords = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Landlords: EPC Rules Are Changing — What's Now Confirmed | Solent EPC</title>
-        <meta name="description" content="The Government has confirmed the future direction of EPC standards for rental property. Learn about the £10,000 cost cap, 2030 requirements, and how to plan sensibly." />
+        <title>Latest EPC Rules for Landlords (2026 Update) | Solent EPC</title>
+        <meta name="description" content="The January 2026 EPC update explained. What's confirmed, what's changing, and how landlords should plan sensibly for 2030. Clear, accurate advice." />
       </Helmet>
 
       {/* Hero Section */}
