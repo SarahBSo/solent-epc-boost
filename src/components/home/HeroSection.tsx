@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Clock, Shield, Award, Users } from "lucide-react";
 import heroImage from "@/assets/hero-epc-assessor.jpg";
+import elmhurstLogo from "@/assets/elmhurst-approved-logo.jpg";
 
 const usps = [
   { icon: Clock, text: "Same-Day Appointments" },
@@ -48,6 +49,15 @@ export function HeroSection() {
               <Button asChild variant="hero-outline" size="xl">
                 <a href="tel:07803280068">Call for Today's Availability</a>
               </Button>
+            </div>
+
+            {/* Elmhurst Approved Logo */}
+            <div className="mt-6 animate-fade-in" style={{ animationDelay: "0.6s" }}>
+              <img 
+                src={elmhurstLogo} 
+                alt="Elmhurst Energy Approved Energy Assessor - Quality Promise Accredited Member" 
+                className="h-14 w-auto"
+              />
             </div>
           </div>
 
