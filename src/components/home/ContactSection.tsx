@@ -1,5 +1,6 @@
 import { Phone, Mail, Clock } from "lucide-react";
 import { useEffect } from "react";
+import elmhurstLogo from "@/assets/elmhurst-approved-logo.jpg";
 
 export function ContactSection() {
   useEffect(() => {
@@ -112,6 +113,14 @@ export function ContactSection() {
                 <div className="bg-card rounded-lg px-4 py-3 shadow-sm">
                   <span className="text-sm font-medium text-accent">Elmhurst Energy Trained</span>
                 </div>
+              </div>
+              {/* Elmhurst Approved Logo */}
+              <div className="mt-6">
+                <img 
+                  src={elmhurstLogo} 
+                  alt="Elmhurst Energy Approved Energy Assessor - Quality Promise Accredited Member" 
+                  className="h-16 w-auto"
+                />
               </div>
             </div>
           </div>
