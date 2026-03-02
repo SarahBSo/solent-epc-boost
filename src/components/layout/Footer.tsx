@@ -122,6 +122,17 @@ export function Footer() {
           <p className="text-sm text-accent-foreground/70 text-center mt-4">
             Accredited Domestic Energy Assessor • Fully Insured • DBS Checked
           </p>
+          <p className="text-sm text-accent-foreground/70 text-center mt-2">
+            Sister company:{" "}
+            <a
+              href="https://solentcheck.co.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors underline"
+            >
+              Solent Check – Home surveys &amp; property inspections
+            </a>
+          </p>
         </div>
       </div>
     </footer>
