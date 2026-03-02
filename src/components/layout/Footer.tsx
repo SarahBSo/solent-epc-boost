@@ -130,7 +130,7 @@ export function Footer() {
               rel="noopener noreferrer"
               className="hover:text-primary transition-colors underline"
             >
-              Solent Check – Home surveys &amp; property inspections
+              Solent Check – Fire &amp; Property Compliance FRA
             </a>
           </p>
         </div>
