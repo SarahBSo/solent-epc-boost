@@ -61,35 +61,58 @@ const EPCConsultancy = () => {
       {/* Hero */}
       <section className="section-padding bg-card">
         <div className="container-section">
-          <div className="max-w-3xl">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-accent mb-4">
-              Don't waste money on the wrong EPC upgrades.
-            </h1>
-            <p className="text-2xl font-heading font-semibold text-primary mb-6">
-              And don't get caught out by what's coming next.
-            </p>
-            <p className="text-xl text-muted-foreground mb-6">
-              Pre- and post-refurb EPC consultancy for landlords and property investors. Plan
-              smarter before works start — and reassess properly when they're finished.
-            </p>
-            <div className="space-y-4 text-foreground mb-8">
-              <p>Most landlords either:</p>
-              <ul className="list-disc pl-6 space-y-1">
-                <li>spend money on upgrades that barely move the EPC</li>
-                <li>or ignore it until the end… and get a nasty surprise</li>
-              </ul>
-              <p>
-                At the same time, EPC rules are changing — and what works today may not be enough
-                tomorrow.
+          <div className="grid lg:grid-cols-3 gap-10 items-start">
+            <div className="lg:col-span-2">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-accent mb-4">
+                Don't waste money on the wrong EPC upgrades.
+              </h1>
+              <p className="text-2xl font-heading font-semibold text-primary mb-6">
+                And don't get caught out by what's coming next.
               </p>
-              <p>
-                We help you make the right decisions before you spend, and understand where you
-                stand after the refurb.
+              <p className="text-xl text-muted-foreground mb-6">
+                Pre- and post-refurb EPC consultancy for landlords and property investors. Plan
+                smarter before works start — and reassess properly when they're finished.
               </p>
+              <div className="space-y-4 text-foreground mb-8">
+                <p>Most landlords either:</p>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>spend money on upgrades that barely move the EPC</li>
+                  <li>or ignore it until the end… and get a nasty surprise</li>
+                </ul>
+                <p>
+                  At the same time, EPC rules are changing — and what works today may not be enough
+                  tomorrow.
+                </p>
+                <p>
+                  We help you make the right decisions before you spend, and understand where you
+                  stand after the refurb.
+                </p>
+              </div>
+              <Button asChild variant="hero" size="xl">
+                <Link to="/contact">Book EPC Consultancy</Link>
+              </Button>
             </div>
-            <Button asChild variant="hero" size="xl">
-              <Link to="/contact">Book EPC Consultancy</Link>
-            </Button>
+
+            {/* Sidebar — Built for landlords and investors */}
+            <aside className="bg-background rounded-xl p-6 shadow-card border-t-4 border-primary lg:sticky lg:top-24">
+              <div className="flex items-center gap-3 mb-4">
+                <Building2 className="w-7 h-7 text-primary" />
+                <h2 className="text-xl font-heading font-bold text-accent">
+                  Built for landlords and investors
+                </h2>
+              </div>
+              <ul className="space-y-2">
+                {whoFor.map((item) => (
+                  <li
+                    key={item}
+                    className="bg-card rounded-lg px-4 py-3 shadow-sm text-sm text-foreground font-medium"
+                  >
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <p className="text-xs text-muted-foreground mt-4">Domestic properties only.</p>
+            </aside>
           </div>
         </div>
       </section>
