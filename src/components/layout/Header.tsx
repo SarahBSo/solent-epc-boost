@@ -7,6 +7,7 @@ import logo from "@/assets/solent-check-logo.png";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/services", label: "EPC Services" },
+  { href: "/epc-consultancy", label: "EPC Consultancy" },
   { href: "/pricing", label: "Pricing" },
   { href: "/areas", label: "Areas We Cover" },
   { href: "/landlords", label: "Landlords" },
