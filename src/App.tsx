@@ -7,6 +7,7 @@ import { HelmetProvider } from "react-helmet-async";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import Index from "./pages/Index";
 import Services from "./pages/Services";
+import EPCConsultancy from "./pages/EPCConsultancy";
 import Pricing from "./pages/Pricing";
 import Areas from "./pages/Areas";
 import About from "./pages/About";
@@ -30,6 +31,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/epc-consultancy" element={<EPCConsultancy />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/areas" element={<Areas />} />
             <Route path="/about" element={<About />} />

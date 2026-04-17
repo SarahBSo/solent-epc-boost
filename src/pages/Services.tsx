@@ -41,6 +41,9 @@ const Services = () => {
                 <Link to="/contact">Book Your EPC</Link>
               </Button>
               <Button asChild variant="hero-outline" size="xl">
+                <Link to="/epc-consultancy">EPC Consultancy</Link>
+              </Button>
+              <Button asChild variant="hero-outline" size="xl">
                 <Link to="/pricing">View Pricing</Link>
               </Button>
             </div>
