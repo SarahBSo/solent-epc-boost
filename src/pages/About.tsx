@@ -96,6 +96,11 @@ const About = () => {
             <Button asChild variant="hero" size="xl">
               <Link to="/contact">Book Your EPC</Link>
             </Button>
+            <Button asChild variant="secondary" size="xl">
+              <a href="https://www.solentcheck.co.uk" target="_blank" rel="noopener noreferrer">
+                Need a Fire Risk Assessment? Click here
+              </a>
+            </Button>
             <Button asChild variant="hero-outline" size="xl">
               <Link to="/pricing">View Pricing</Link>
             </Button>

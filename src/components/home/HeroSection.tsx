@@ -42,12 +42,19 @@ export function HeroSection() {
             </div>
 
             {/* CTAs */}
-            <div className="flex flex-col sm:flex-row gap-3 animate-fade-in" style={{ animationDelay: "0.5s" }}>
+            <div className="flex flex-col sm:flex-row flex-wrap gap-3 animate-fade-in" style={{ animationDelay: "0.5s" }}>
               <Button asChild variant="hero" size="xl">
                 <Link to="/contact">Book Your EPC</Link>
               </Button>
               <Button asChild variant="hero-outline" size="xl">
                 <a href="tel:07803280068">Call for Today's Availability</a>
+              </Button>
+            </div>
+            <div className="mt-3 animate-fade-in" style={{ animationDelay: "0.55s" }}>
+              <Button asChild variant="secondary" size="xl">
+                <a href="https://www.solentcheck.co.uk" target="_blank" rel="noopener noreferrer">
+                  Need a Fire Risk Assessment? Click here
+                </a>
               </Button>
             </div>
 
