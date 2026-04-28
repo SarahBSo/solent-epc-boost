@@ -120,6 +120,10 @@ export function ContactSection() {
                   src={elmhurstLogo} 
                   alt="Elmhurst Energy Approved Energy Assessor - Quality Promise Accredited Member" 
                   className="h-16 w-auto"
+                  loading="lazy"
+                  decoding="async"
+                  width="140"
+                  height="64"
                 />
               </div>
             </div>
