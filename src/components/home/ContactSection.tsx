@@ -1,6 +1,6 @@
 import { Phone, Mail, Clock } from "lucide-react";
 import { useEffect } from "react";
-import elmhurstLogo from "@/assets/elmhurst-approved-logo.jpg";
+import elmhurstLogo from "@/assets/elmhurst-approved-logo.webp";
 
 export function ContactSection() {
   useEffect(() => {
@@ -120,6 +120,10 @@ export function ContactSection() {
                   src={elmhurstLogo} 
                   alt="Elmhurst Energy Approved Energy Assessor - Quality Promise Accredited Member" 
                   className="h-16 w-auto"
+                  loading="lazy"
+                  decoding="async"
+                  width="140"
+                  height="64"
                 />
               </div>
             </div>
