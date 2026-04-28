@@ -7,7 +7,7 @@ import elmhurstLogo from "@/assets/elmhurst-approved-logo.jpg";
 const usps = [
   { icon: Clock, text: "Same-Day Appointments" },
   { icon: Shield, text: "Fully Insured & Accredited" },
-  { icon: Award, text: "Certificates Delivered Same Day" },
+  { icon: Award, text: "Certificates Delivered Same Day Available" },
   { icon: Users, text: "Trusted by Agents & Landlords" },
 ];
 
