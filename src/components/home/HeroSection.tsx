@@ -1,14 +1,16 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Clock, Shield, Award, Users } from "lucide-react";
+import { Clock, Shield, Award, Users, Home, Building2 } from "lucide-react";
 import heroImage from "@/assets/hero-epc-assessor.jpg";
 import elmhurstLogo from "@/assets/elmhurst-approved-logo.jpg";
 
 const usps = [
   { icon: Clock, text: "Same-Day Appointments" },
   { icon: Shield, text: "Fully Insured & Accredited" },
-  { icon: Award, text: "Certificates Delivered Same Day" },
+  { icon: Award, text: "Same Day Certificates Available" },
   { icon: Users, text: "Trusted by Agents & Landlords" },
+  { icon: Home, text: "Residential EPC" },
+  { icon: Building2, text: "Commercial EPC" },
 ];
 
 export function HeroSection() {
