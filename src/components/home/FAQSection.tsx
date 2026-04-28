@@ -31,6 +31,10 @@ const faqs = [
     answer: "We cover a 25-mile radius from Lymington in the New Forest, including towns across Hampshire and Dorset such as New Milton, Christchurch, Bournemouth, Brockenhurst, Ringwood, Totton, and Southampton.",
   },
   {
+    question: "Do you do commercial EPCs?",
+    answer: "Yes. We assess shops, offices, industrial units and other non-domestic properties. A commercial EPC is required when selling, letting or making major changes to a building. Pricing starts from £175 — contact us for a quote.",
+  },
+  {
     question: "What's the minimum EPC rating for rental properties?",
     answer: "Since April 2020, rental properties in England and Wales must have a minimum EPC rating of E before a new tenancy can begin. There are some exemptions, but landlords generally need to ensure their properties meet this standard.",
   },

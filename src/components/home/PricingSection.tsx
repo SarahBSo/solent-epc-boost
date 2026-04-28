@@ -37,6 +37,17 @@ const pricingOptions = [
       "Flexible invoicing",
     ],
   },
+  {
+    title: "Commercial EPC",
+    price: "From £175",
+    description: "For commercial property owners — sale, new tenancy or refurbishment",
+    features: [
+      "Full non-domestic assessment",
+      "Same-day certificate delivery available",
+      "Lodged on official register",
+      "10-year certificate validity",
+    ],
+  },
 ];
 
 export function PricingSection() {
@@ -52,7 +63,7 @@ export function PricingSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {pricingOptions.map((option, index) => (
             <div
               key={option.title}

@@ -7,6 +7,7 @@ const footerLinks = {
     { label: "Domestic EPCs", href: "/services" },
     { label: "Landlord EPCs", href: "/services" },
     { label: "Estate Agent EPCs", href: "/services" },
+    { label: "Commercial EPCs", href: "/pricing" },
     { label: "Pricing", href: "/pricing" },
   ],
   areas: [

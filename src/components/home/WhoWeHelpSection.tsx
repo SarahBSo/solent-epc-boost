@@ -1,4 +1,4 @@
-import { Building2, Home, KeyRound, TrendingUp } from "lucide-react";
+import { Building2, Home, KeyRound, TrendingUp, Briefcase } from "lucide-react";
 
 const audiences = [
   {
@@ -21,6 +21,11 @@ const audiences = [
     title: "Home Movers",
     description: "Quick certificates so your listing can go live. We work around your schedule to make selling stress-free.",
   },
+  {
+    icon: Briefcase,
+    title: "Commercial Properties",
+    description: "Commercial EPCs for shops, offices, industrial units and mixed-use premises. Required for sale, new tenancy or major refurbishment.",
+  },
 ];
 
 export function WhoWeHelpSection() {
@@ -36,7 +41,7 @@ export function WhoWeHelpSection() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {audiences.map((audience, index) => (
             <div
               key={audience.title}

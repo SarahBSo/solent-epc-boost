@@ -106,6 +106,12 @@ const Services = () => {
               <p>
                 <strong>Building or renovating?</strong> New builds and major renovations require an EPC on completion.
               </p>
+              <p>
+                <strong>Commercial premises?</strong> Shops, offices and other non-domestic properties require a commercial EPC for sale, new tenancy or major refurbishment.{" "}
+                <Link to="/pricing" className="text-primary hover:underline font-medium">
+                  View commercial EPC pricing
+                </Link>
+              </p>
             </div>
           </div>
         </div>
