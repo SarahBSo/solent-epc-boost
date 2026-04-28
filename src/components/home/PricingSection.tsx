@@ -9,7 +9,7 @@ const pricingOptions = [
     description: "For home sellers and buyers",
     features: [
       "Full property assessment",
-      "Same-day certificate delivery",
+      "Same-day certificate delivery available",
       "Lodged on official register",
       "10-year validity",
     ],
@@ -20,7 +20,7 @@ const pricingOptions = [
     description: "For landlords and letting agents",
     features: [
       "Compliance-focused assessment",
-      "Same-day certificate delivery",
+      "Same-day certificate delivery available",
       "Lodged on official register",
       "Advice on improving rating",
     ],
