@@ -31,7 +31,7 @@ const Services = () => {
         <div className="container-section">
           <div className="max-w-3xl">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-accent mb-6">
-              Domestic EPC Services
+              Domestic & Commercial EPC Services
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
               Professional Energy Performance Certificates for home sellers, landlords and property agents across Hampshire and Dorset.
