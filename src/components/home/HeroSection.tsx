@@ -73,7 +73,7 @@ export function HeroSection() {
             <div className="relative rounded-xl overflow-hidden shadow-card-hover">
               <img
                 src={heroImage}
-                alt="EPC assessor inspecting a British home"
+                alt="Solent Check assessor measuring windows during a UK property inspection"
                 className="w-full h-auto object-cover aspect-[4/3]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-accent/20 to-transparent" />
