@@ -33,6 +33,18 @@ const pricingTiers = [
     highlighted: true,
   },
   {
+    title: "Commercial EPC",
+    price: "From £175",
+    description: "For commercial property owners for new tenancies, sale or refinance.",
+    features: [
+      "Full property assessment",
+      "Same-day certificate delivery available",
+      "Lodged on official EPC register",
+      "10-year certificate validity",
+      "Energy improvement recommendations",
+    ],
+  },
+  {
     title: "Agent Packages",
     price: "Contact for pricing",
     description: "Discounted rates for estate agents and letting agents with regular bookings.",
@@ -70,7 +82,7 @@ const Pricing = () => {
       {/* Pricing Cards */}
       <section className="section-padding bg-background">
         <div className="container-section">
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto items-stretch">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto items-stretch">
             {pricingTiers.map((tier) => (
               <div
                 key={tier.title}
