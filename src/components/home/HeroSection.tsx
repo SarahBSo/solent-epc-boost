@@ -50,13 +50,6 @@ export function HeroSection() {
                 <a href="tel:07803280068">Call for Today's Availability</a>
               </Button>
             </div>
-            <div className="mt-3 animate-fade-in" style={{ animationDelay: "0.55s" }}>
-              <Button asChild variant="secondary" size="xl">
-                <a href="https://www.solentcheck.co.uk" target="_blank" rel="noopener noreferrer">
-                  Need a Fire Risk Assessment? Click here
-                </a>
-              </Button>
-            </div>
 
             {/* Elmhurst Approved Logo */}
             <div className="mt-6 animate-fade-in" style={{ animationDelay: "0.6s" }}>
@@ -65,6 +58,20 @@ export function HeroSection() {
                 alt="Elmhurst Energy Approved Energy Assessor - Quality Promise Accredited Member" 
                 className="h-14 w-auto"
               />
+            </div>
+
+            <div className="mt-4 animate-fade-in" style={{ animationDelay: "0.65s" }}>
+              <p className="text-sm text-muted-foreground">
+                Need a fire risk assessment?{" "}
+                <a
+                  href="https://www.solentcheck.co.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline font-medium"
+                >
+                  Visit Solent Check →
+                </a>
+              </p>
             </div>
           </div>
 

@@ -10,13 +10,13 @@ export function AboutSection() {
             About Solent EPC
           </h2>
           <p className="text-lg text-foreground mb-4">
-            Solent EPC is a friendly, family-run energy assessment service based near Lymington in the New Forest.
+            I'm Rick — a local, accredited energy assessor based near Lymington in the New Forest.
           </p>
           <p className="text-foreground mb-6">
-            We provide fast, professional Energy Performance Certificates for home sellers, landlords, and property agents across Hampshire and Dorset. As a fully accredited Domestic Energy Assessor, I take pride in offering a personal, no-nonsense service – turning up on time, explaining everything clearly, and delivering your certificate the same day.
+            I provide fast, professional Energy Performance Certificates for home sellers, landlords and property agents across Hampshire and Dorset. I take pride in a personal, no-nonsense service — turning up on time, explaining everything clearly, and delivering your certificate the same day.
           </p>
           <p className="text-muted-foreground mb-8">
-            Whether you're selling your home, letting a property, or managing a portfolio of rentals, I'm here to make the EPC process as simple and stress-free as possible.
+            Whether you're selling your home, letting a property or managing a portfolio, I'm here to make the EPC process as simple and stress-free as possible.
           </p>
           <Button asChild variant="hero" size="lg">
             <Link to="/about">Learn More About Us</Link>

@@ -49,15 +49,18 @@ const Areas = () => {
             Based in the New Forest, we provide EPC assessments within a 25-mile radius of Lymington, covering Hampshire and Dorset.
           </p>
 
-          {/* Map placeholder */}
-          <div className="max-w-2xl mx-auto bg-gradient-to-br from-primary/10 to-secondary/10 rounded-xl p-12 mb-8">
-            <MapPin className="w-20 h-20 text-primary mx-auto mb-4" />
-            <h2 className="font-heading font-semibold text-accent text-xl mb-2">
-              25-Mile Coverage Radius
-            </h2>
-            <p className="text-muted-foreground">
-              From our base near Lymington
-            </p>
+          {/* Map */}
+          <div className="max-w-2xl mx-auto rounded-xl overflow-hidden shadow-card mb-8" style={{ height: "380px" }}>
+            <iframe
+              title="Solent EPC coverage area"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d158000!2d-1.5474!3d50.7556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
         </div>
       </section>

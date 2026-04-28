@@ -4,9 +4,8 @@ import logo from "@/assets/solent-check-logo.png";
 
 const footerLinks = {
   services: [
-    { label: "Domestic EPCs", href: "/services" },
-    { label: "Landlord EPCs", href: "/services" },
-    { label: "Estate Agent EPCs", href: "/services" },
+    { label: "EPC Services", href: "/services" },
+    { label: "EPC Consultancy", href: "/epc-consultancy" },
     { label: "Commercial EPCs", href: "/pricing" },
     { label: "Pricing", href: "/pricing" },
   ],
