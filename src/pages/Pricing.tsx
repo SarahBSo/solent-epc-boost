@@ -13,7 +13,7 @@ const pricingTiers = [
     description: "For home sellers and buyers needing an EPC for their sale or purchase.",
     features: [
       "Full property assessment",
-      "Same-day certificate delivery",
+      "Same-day certificate delivery available",
       "Lodged on official EPC register",
       "10-year certificate validity",
       "Energy improvement recommendations",
@@ -25,7 +25,7 @@ const pricingTiers = [
     description: "For landlords ensuring compliance with minimum energy efficiency standards.",
     features: [
       "Compliance-focused assessment",
-      "Same-day certificate delivery",
+      "Same-day certificate delivery available",
       "Lodged on official EPC register",
       "Minimum rating verification",
       "Improvement advice for better ratings",
@@ -141,7 +141,7 @@ const Pricing = () => {
               {[
                 "Full property assessment (20-40 mins)",
                 "Professional, accredited assessor",
-                "Same-day certificate delivery",
+                "Same-day certificate delivery available",
                 "Lodged on official EPC register",
                 "10-year certificate validity",
                 "Energy improvement recommendations",
