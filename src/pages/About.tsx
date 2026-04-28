@@ -37,13 +37,13 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-foreground">
               <p>
-                Solent EPC was founded with a simple mission: to provide fast, friendly and professional EPC assessments to home sellers, landlords and property agents across Hampshire and Dorset.
+                I'm Rick, an accredited Domestic Energy Assessor based near Lymington in the New Forest. I set up Solent EPC with a simple goal: to provide fast, professional EPC assessments without the fuss — turning up on time, explaining everything clearly, and getting your certificate to you the same day.
               </p>
               <p>
-                Based near Lymington in the beautiful New Forest, we understand the local property market and the needs of our customers. Whether you're selling your family home, letting a rental property, or managing a portfolio for an estate agency, we're here to make the EPC process as simple and stress-free as possible.
+                I know the local property market well, and I work with home sellers, landlords, letting agents and estate agents across Hampshire and Dorset. Whether it's a single rental flat or a busy agent's portfolio, I treat every job the same — professionally and without unnecessary jargon.
               </p>
               <p>
-                As a fully accredited Domestic Energy Assessor registered on the official EPC register, you can trust that your certificate will be accurate, compliant and delivered quickly – usually on the same day as your assessment.
+                As a fully accredited assessor registered on the official EPC register, you can be confident your certificate will be accurate, compliant, and delivered when you need it.
               </p>
             </div>
           </div>
@@ -95,11 +95,6 @@ const About = () => {
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild variant="hero" size="xl">
               <Link to="/contact">Book Your EPC</Link>
-            </Button>
-            <Button asChild variant="secondary" size="xl">
-              <a href="https://www.solentcheck.co.uk" target="_blank" rel="noopener noreferrer">
-                Need a Fire Risk Assessment? Click here
-              </a>
             </Button>
             <Button asChild variant="hero-outline" size="xl">
               <Link to="/pricing">View Pricing</Link>

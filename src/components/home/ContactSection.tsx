@@ -72,7 +72,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <p className="font-medium text-accent">Email Us</p>
-                  <p className="text-muted-foreground">We'll respond within 24 hours</p>
+                  <p className="text-muted-foreground">We aim to respond the same day</p>
                   <a href="mailto:rick@solentcheck.co.uk" className="text-primary font-semibold hover:underline">
                     rick@solentcheck.co.uk
                   </a>
