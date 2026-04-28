@@ -82,7 +82,7 @@ const Pricing = () => {
       {/* Pricing Cards */}
       <section className="section-padding bg-background">
         <div className="container-section">
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto items-stretch">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto items-stretch">
             {pricingTiers.map((tier) => (
               <div
                 key={tier.title}
