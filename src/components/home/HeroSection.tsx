@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Clock, Shield, Award, Users, Home, Building2 } from "lucide-react";
-import heroImage from "@/assets/hero-epc-assessor.jpg";
-import elmhurstLogo from "@/assets/elmhurst-approved-logo.jpg";
+import heroImage from "@/assets/hero-epc-assessor.webp";
+import elmhurstLogo from "@/assets/elmhurst-approved-logo.webp";
 
 const usps = [
   { icon: Clock, text: "Same-Day Appointments" },

@@ -1,6 +1,6 @@
 import { Phone, Mail, Clock } from "lucide-react";
 import { useEffect } from "react";
-import elmhurstLogo from "@/assets/elmhurst-approved-logo.jpg";
+import elmhurstLogo from "@/assets/elmhurst-approved-logo.webp";
 
 export function ContactSection() {
   useEffect(() => {
