@@ -59,6 +59,10 @@ export function HeroSection() {
                 src={elmhurstLogo} 
                 alt="Elmhurst Energy Approved Energy Assessor - Quality Promise Accredited Member" 
                 className="h-14 w-auto"
+                loading="lazy"
+                decoding="async"
+                width="120"
+                height="56"
               />
             </div>
 
@@ -84,6 +88,10 @@ export function HeroSection() {
                 src={heroImage}
                 alt="Solent Check assessor measuring windows during a UK property inspection"
                 className="w-full h-auto object-cover aspect-[4/3]"
+                fetchPriority="high"
+                decoding="async"
+                width="1600"
+                height="1200"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-accent/20 to-transparent" />
             </div>
