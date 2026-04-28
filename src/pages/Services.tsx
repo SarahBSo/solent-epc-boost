@@ -71,7 +71,7 @@ const Services = () => {
             <div className="grid sm:grid-cols-2 gap-4">
               {[
                 { icon: Clock, title: "20-40 Min Visit", desc: "Quick, non-invasive assessment" },
-                { icon: FileCheck, title: "Same-Day Delivery", desc: "Certificate emailed to you" },
+                { icon: FileCheck, title: "Same-Day Delivery Available", desc: "Certificate emailed to you" },
                 { icon: Shield, title: "Official Register", desc: "Lodged on government database" },
                 { icon: Zap, title: "Improvement Tips", desc: "Advice to boost your rating" },
               ].map((item) => (
