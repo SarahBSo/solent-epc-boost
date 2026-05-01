@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Shield, Award, MapPin, Heart } from "lucide-react";
 import { ContactSection } from "@/components/home/ContactSection";
 import { Helmet } from "react-helmet-async";
+import storyImage from "@/assets/assessor-arriving-property.webp";
 
 const About = () => {
   return (
@@ -31,20 +32,35 @@ const About = () => {
       {/* Story */}
       <section className="section-padding bg-background">
         <div className="container-section">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-heading font-bold text-accent mb-6">
-              Our Story
-            </h2>
-            <div className="space-y-4 text-foreground">
-              <p>
-                I'm Rick, an accredited Domestic Energy Assessor based near Lymington in the New Forest. I set up Solent EPC with a simple goal: to provide fast, professional EPC assessments without the fuss — turning up on time, explaining everything clearly, and getting your certificate to you the same day.
-              </p>
-              <p>
-                I know the local property market well, and I work with home sellers, landlords, letting agents and estate agents across Hampshire and Dorset. Whether it's a single rental flat or a busy agent's portfolio, I treat every job the same — professionally and without unnecessary jargon.
-              </p>
-              <p>
-                As a fully accredited assessor registered on the official EPC register, you can be confident your certificate will be accurate, compliant, and delivered when you need it.
-              </p>
+          <div className="max-w-5xl mx-auto grid lg:grid-cols-5 gap-10 items-start">
+            <div className="lg:col-span-2">
+              <div className="rounded-xl overflow-hidden shadow-card-hover aspect-[3/4] sticky top-24">
+                <img
+                  src={storyImage}
+                  alt="Rick from Solent EPC arriving at a property in the New Forest to carry out an EPC assessment"
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  width="1200"
+                  height="1600"
+                />
+              </div>
+            </div>
+            <div className="lg:col-span-3">
+              <h2 className="text-2xl sm:text-3xl font-heading font-bold text-accent mb-6">
+                Our Story
+              </h2>
+              <div className="space-y-4 text-foreground">
+                <p>
+                  I'm Rick, an accredited Domestic Energy Assessor based near Lymington in the New Forest. I set up Solent EPC with a simple goal: to provide fast, professional EPC assessments without the fuss — turning up on time, explaining everything clearly, and getting your certificate to you the same day.
+                </p>
+                <p>
+                  I know the local property market well, and I work with home sellers, landlords, letting agents and estate agents across Hampshire and Dorset. Whether it's a single rental flat or a busy agent's portfolio, I treat every job the same — professionally and without unnecessary jargon.
+                </p>
+                <p>
+                  As a fully accredited assessor registered on the official EPC register, you can be confident your certificate will be accurate, compliant, and delivered when you need it.
+                </p>
+              </div>
             </div>
           </div>
         </div>
