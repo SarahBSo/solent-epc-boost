@@ -1,4 +1,5 @@
 import { Building2, Home, KeyRound, TrendingUp, Briefcase } from "lucide-react";
+import commercialImage from "@/assets/assessor-commercial-inspection.webp";
 
 const audiences = [
   {
@@ -59,6 +60,21 @@ export function WhoWeHelpSection() {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* Commercial inspection feature image */}
+        <div className="mt-12 max-w-5xl mx-auto">
+          <div className="rounded-xl overflow-hidden shadow-card-hover aspect-[16/9]">
+            <img
+              src={commercialImage}
+              alt="Solent EPC assessor inspecting a commercial industrial unit in Hampshire"
+              className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+              width="1200"
+              height="675"
+            />
+          </div>
         </div>
       </div>
     </section>
