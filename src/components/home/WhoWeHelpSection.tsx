@@ -1,5 +1,22 @@
 import { Building2, Home, KeyRound, TrendingUp, Briefcase } from "lucide-react";
 import commercialImage from "@/assets/assessor-commercial-inspection.webp";
+import cylinderImage from "@/assets/assessor-cylinder-inspection.webp";
+import timberCladImage from "@/assets/assessor-timber-clad-property.webp";
+
+const featureImages = [
+  {
+    src: commercialImage,
+    alt: "Solent EPC assessor inspecting a commercial industrial unit in Hampshire",
+  },
+  {
+    src: cylinderImage,
+    alt: "Solent EPC assessor inspecting a hot water cylinder during an energy assessment",
+  },
+  {
+    src: timberCladImage,
+    alt: "Solent EPC assessor arriving at a timber-clad commercial property in the New Forest",
+  },
+];
 
 const audiences = [
   {
@@ -62,19 +79,25 @@ export function WhoWeHelpSection() {
           ))}
         </div>
 
-        {/* Commercial inspection feature image */}
-        <div className="mt-12 max-w-5xl mx-auto">
-          <div className="rounded-xl overflow-hidden shadow-card-hover aspect-[16/9]">
-            <img
-              src={commercialImage}
-              alt="Solent EPC assessor inspecting a commercial industrial unit in Hampshire"
-              className="w-full h-full object-cover"
-              loading="lazy"
-              decoding="async"
-              width="1200"
-              height="675"
-            />
-          </div>
+        {/* Inspection feature images */}
+        <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {featureImages.map((image, index) => (
+            <div
+              key={image.src}
+              className="rounded-xl overflow-hidden shadow-card hover:shadow-card-hover transition-all duration-300 aspect-[4/5] animate-fade-in-up"
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              <img
+                src={image.src}
+                alt={image.alt}
+                className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+                width="1200"
+                height="1500"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </section>
