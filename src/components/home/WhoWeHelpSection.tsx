@@ -1,4 +1,5 @@
 import { Building2, Home, KeyRound, TrendingUp, Briefcase } from "lucide-react";
+import commercialImage from "@/assets/assessor-commercial-inspection.webp";
 
 const audiences = [
   {
@@ -42,6 +43,10 @@ export function WhoWeHelpSection() {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {audiences.map((audience, index) => (
+            // eslint-disable-next-line react/jsx-key
+            <></>
+          )).slice(0,0)}
           {audiences.map((audience, index) => (
             <div
               key={audience.title}
