@@ -44,10 +44,6 @@ export function WhoWeHelpSection() {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {audiences.map((audience, index) => (
-            // eslint-disable-next-line react/jsx-key
-            <></>
-          )).slice(0,0)}
-          {audiences.map((audience, index) => (
             <div
               key={audience.title}
               className="group bg-card rounded-xl p-6 shadow-card hover:shadow-card-hover transition-all duration-300 animate-fade-in-up"
@@ -64,6 +60,21 @@ export function WhoWeHelpSection() {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* Commercial inspection feature image */}
+        <div className="mt-12 max-w-5xl mx-auto">
+          <div className="rounded-xl overflow-hidden shadow-card-hover aspect-[16/9]">
+            <img
+              src={commercialImage}
+              alt="Solent EPC assessor inspecting a commercial industrial unit in Hampshire"
+              className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+              width="1200"
+              height="675"
+            />
+          </div>
         </div>
       </div>
     </section>
